@@ -61,7 +61,7 @@ iface = gr.Interface(
     ],
     outputs=gr.Dataframe(),
     allow_flagging='never',
-    title="BLIP2-Easy-Captioner"
+    title="simple-BLIP2-captioner"
 )
 
 iface.launch()
